@@ -243,7 +243,7 @@ class WebSocketManager:
         self._websocket_command_id += 1
         repaint_command = [
             {
-                "rpc": {"method": "repaint", "data": repaint_data.encode()},
+                "rpc": {"method": "repaintTournament", "data": repaint_data.encode()},
                 "id": self._websocket_command_id,
             }
         ]

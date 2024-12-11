@@ -238,7 +238,7 @@ class NotPXBot:
             bot_state.raise_for_status()
 
             if await bot_state.text() != "running":
-                logger.critical("Admin has stopped the bot!")
+                logger.critical("Admins have stopped the bot!")
                 sys.exit(1)
 
         if not await self._notpx_api_checker.check_api(session, self._headers["notpx"]):
