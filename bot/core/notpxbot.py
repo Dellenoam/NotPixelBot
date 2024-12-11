@@ -81,16 +81,11 @@ class NotPXBot:
                 "leagueBonusPlatinum": "leagueBonusPlatinum",
             },
             "click_tasks_list": {
-                "solitaireGame": {
-                    "event_name": "task_solitaire",
-                    "name": "solitaireGame",
+                "earnCoin": {
+                    "event_name": "task_earncoin",
+                    "name": "earnCoin",
                     "reward": 512,
-                },
-                "tonDurakGame": {
-                    "event_name": "task_durak",
-                    "name": "tonDurakGame",
-                    "reward": 512,
-                },
+                }
             },
         }
         self._tasks_to_complete: Dict[str, Dict[str, Any]] = {}
