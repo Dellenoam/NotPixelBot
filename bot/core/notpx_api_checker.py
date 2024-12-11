@@ -91,6 +91,7 @@ class NotPXAPIChecker:
                 "/daily/free",
                 "/daily/list",
                 "/history/all?offset=${n}&limit=${s}",
+                "/history/stats",
                 "/image/get/${n}",
                 "/image/mask${s}",
                 "/image/prices",
